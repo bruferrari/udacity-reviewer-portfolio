@@ -14,7 +14,18 @@
     </style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    
+    <style name="PortfolioBtnCustomTheme">
+        <item name="android:layout_width">@dimen/portfolio_btn_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/portfolio_btn_vertical_margin</item>
+        <item name="android:layout_marginBottom">@dimen/portfolio_btn_vertical_margin</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">@dimen/portfolio_btn_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/portfolio_btn_primary_color</item>
+    </style>
 
 </resources>

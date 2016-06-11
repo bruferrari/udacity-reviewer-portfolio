@@ -27,37 +27,36 @@ public class AppPortfolioActivity extends AppCompatActivity implements View.OnCl
 
     }
 
+    private void showToastMessage(int resId) {
+        Toast.makeText(AppPortfolioActivity.this, resId,
+                Toast.LENGTH_LONG).show();
+    }
+
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.app_main_btn_1:
-                Toast.makeText(AppPortfolioActivity.this, R.string.popular_movies_app_msg,
-                               Toast.LENGTH_LONG).show();
+                showToastMessage(R.string.popular_movies_app_msg);
                 break;
 
             case R.id.app_main_btn_2:
-                Toast.makeText(AppPortfolioActivity.this, R.string.stock_hawk_app_msg,
-                               Toast.LENGTH_LONG).show();
+                showToastMessage(R.string.stock_hawk_app_msg);
                 break;
 
             case R.id.app_main_btn_3:
-                Toast.makeText(AppPortfolioActivity.this, R.string.build_it_bigger_app_msg,
-                               Toast.LENGTH_LONG).show();
+                showToastMessage(R.string.build_it_bigger_app_msg);
                 break;
 
             case R.id.app_main_btn_4:
-                Toast.makeText(AppPortfolioActivity.this, R.string.material_app_msg,
-                        Toast.LENGTH_LONG).show();
+                showToastMessage(R.string.material_app_msg);
                 break;
 
             case R.id.app_main_btn_5:
-                Toast.makeText(AppPortfolioActivity.this, R.string.ubiquitous_app_msg,
-                        Toast.LENGTH_LONG).show();
+                showToastMessage(R.string.ubiquitous_app_msg);
                 break;
 
             case R.id.app_main_btn_6:
-                Toast.makeText(AppPortfolioActivity.this, R.string.capstone_app_msg,
-                        Toast.LENGTH_LONG).show();
+                showToastMessage(R.string.capstone_app_msg);
                 break;
         }
     }
