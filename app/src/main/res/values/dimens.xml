@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">40dp</dimen>
+
+    <!-- Button definitions -->
+    <!-- margins -->
+    <dimen name="portfolio_btn_vertical_margin">5dp</dimen>
+
+    <!-- sizes -->
+    <dimen name="portfolio_btn_width">200dp</dimen>
+    <dimen name="portfolio_btn_text_size">12sp</dimen>
+</resources>
